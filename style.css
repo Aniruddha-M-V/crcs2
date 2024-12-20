@@ -1,0 +1,55 @@
+html body{
+    background-color: red;
+    color:white;
+    margin-right: 0;
+    overflow-x: hidden;
+}
+
+.navbar-scrolled{
+    background-color: rgb(255, 0, 0) !important;
+    transition: 0.7s ease-in-out;
+}
+
+#navcol,
+#navcol2,
+#navcol3,
+#navcol4 {
+    color: white !important;
+}
+
+.text-center{
+    font-size: 1.1rem;
+}
+.big{
+    font-size: large;
+}
+.contane{
+    display: flex;
+    justify-content: center;
+}
+.bgimage{
+    background-position: center;
+    background-size:cover;
+    height: 110%;
+    width: 99%;
+    justify-content: left;
+    display: flex;
+    margin-left:1%;
+}
+nav{
+    width:100%;
+}
+.bgimagee{
+        background-position: center;
+            background-size: cover;
+            height: 110%;
+            width: 99%;
+            justify-content: left;
+            display: flex;
+            margin-left: 1%;
+}
+@media (max-width: 990px) and (max-height: 1184px) {
+    .custom-navbar {
+        background-color: red !important;
+    }
+}
